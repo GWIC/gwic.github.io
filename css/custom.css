@@ -1,0 +1,885 @@
+
+:root {
+	--color1: #ffe01a;/*main yellow*/
+	--color2: #687786;/*light gray blue*/
+	--color3: #004065;/*blue*/
+	--color4: #000;/*black*/
+
+	--gray-light: #ddd;/**/  
+	--gray-dark: #444;
+	--gray-darkest: #888;
+
+	--font1: 'Montserrat', helvetica, arial !important;/*headlines*/
+	--font2: 'Hind' !important;/*body*/
+	--font3: 'IM Fell English', serif; /*italics*/
+
+	--m: 16px;
+}
+
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+html
+{
+	background-color: white;
+/*  background-image: url("../images/dark-matter.png") !important;*/
+background-repeat: repeat !important;
+}
+
+
+body {
+
+	background-color:white;
+	margin: 0 auto; 
+	max-width: 70em;
+	line-height: 1.3;
+	font-family: var(--font1) ;
+}
+
+h1:after, h2:after, h3:after
+{
+	display: none !important;
+}
+
+
+
+
+
+
+
+
+/***
+ *      _    _   __ 
+ *     | |  | | /_ |
+ *     | |__| |  | |
+ *     |  __  |  | |
+ *     | |  | |  | |
+ *     |_|  |_|  |_|
+ *                  
+ *                  
+ */
+
+ h1 {
+ 	font-family: var(--font1) ;
+ 	font-size: 42px !important;
+ 	line-height: 36px !important;
+ 	font-weight: 700;
+ 	margin-bottom: .5rem;
+ 	color: var(--color1) ;
+ }
+
+
+ h1#logo
+ {
+ 	color:var(--color3) !important;
+ 	font-size: 52px !important;
+ 	line-height: 55px !important;
+ 	font-weight: 900 !important;
+ 	text-transform: uppercase;
+ 	padding: 1rem;
+ 	margin-bottom: 0;
+ 	margin-left: .2rem;
+ 	margin-right: .5rem;
+
+ }
+
+
+h1.text-shadow
+{
+	text-shadow: 0 0 5px #050505;
+}
+
+
+
+div.mission-statement h1
+{
+	font-family: 'Montserrat' ;
+	font-weight: 900;
+ 	font-size: 2rem !important;
+ 	line-height: 2.5rem !important;
+ 	margin-bottom: 0rem;
+ 	margin-top: 2rem;
+ 	color: var(--color3);
+ 	text-shadow: none;
+}
+
+
+
+h1.cta
+{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+ 	font-size: 1.5rem !important;
+ 	line-height: 1.5rem !important;
+ 	margin-bottom: .5rem;
+ 	margin-top: 2rem;
+}
+
+
+
+
+
+
+/***
+ *      _    _   ___  
+ *     | |  | | |__ \ 
+ *     | |__| |    ) |
+ *     |  __  |   / / 
+ *     | |  | |  / /_ 
+ *     |_|  |_| |____|
+ *                    
+ *                    
+ */
+
+
+
+
+
+
+
+ /***
+ *      _    _   ____  
+ *     | |  | | |___ \ 
+ *     | |__| |   __) |
+ *     |  __  |  |__ < 
+ *     | |  | |  ___) |
+ *     |_|  |_| |____/ 
+ *                     
+ *                     
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *      _       _  _   
+ *     | |     | || |  
+ *     | |__   | || |_ 
+ *     | '_ \  |__   _|
+ *     | | | |    | |  
+ *     |_| |_|    |_|  
+ *                     
+ *                     
+ */
+
+
+
+
+
+
+
+
+/***
+ *      _____  
+ *     |  __ \ 
+ *     | |__) |
+ *     |  ___/ 
+ *     | |     
+ *     |_|     
+ *             
+ *             
+ */
+
+
+footer p
+{
+	color: var(--gray-dark);
+	font-weight: 700;
+}
+
+
+
+ div.mission-statement p
+ {
+ 	padding-top: .5rem;
+ }
+
+ div.gwic-donate-holder p,  div.gwic-tour-holder p
+ {
+ 	font-size: 1rem;
+ 	line-height: 1.3rem;
+ 	margin-bottom: 0;
+ 	/*overflow: hidden;*/
+ }
+
+
+
+
+/***
+ *      _ 
+ *     (_)
+ *      _ 
+ *     | |
+ *     | |
+ *     |_|
+ *        
+ *        
+ */
+
+
+
+i.fa-5x
+{
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+
+
+
+
+
+/***
+ *      _____    _____  __      __ 
+ *     |  __ \  |_   _| \ \    / / 
+ *     | |  | |   | |    \ \  / /  
+ *     | |  | |   | |     \ \/ /   
+ *     | |__| |  _| |_     \  /    
+ *     |_____/  |_____|     \/     
+ *                                 
+ *                                 
+ */
+
+
+ div.container
+ {
+ 	background-color: white;
+ 	padding: 0;
+
+/* 	-webkit-box-shadow: 0px 0px 161px 0px rgba(255, 255, 255, 0.75);
+-moz-box-shadow:    0px 0px 161px 0px rgba(255, 255, 255, 0.75);
+box-shadow:         0px 0px 161px 0px rgba(255, 255, 255, 0.75);*/
+ }
+
+
+ .jumbotron
+ {
+ 	padding: 0;
+ 	margin-top: 0rem;
+ 	margin-bottom: 0;
+ }
+
+ div.secondary
+ {
+ 	border: 0px solid black;
+ 	background-color: white;
+ 	color: black;
+ }
+
+div.gwic-fb-holder
+ {
+ 	padding: 0;
+ 	margin-top: .5rem;
+ }
+
+ div.gwic-instagram-holder
+ {
+ 	max-width: 500px;
+ 	margin-top: 2rem;
+ }
+
+
+ div.video
+ {
+ 	padding: 0;
+ 	margin-top: 1rem;
+ 	margin-bottom: 1rem;
+ }
+
+
+div.gwic-donate-holder
+{
+	min-height: 9rem;
+}
+
+div.gwic-donate-holder, div.gwic-tour-holder, div.gwic-fb-holder, div.gwic-contact-holder
+{
+	padding-right: 1rem !important;
+}
+
+div.mission-statement
+{
+	padding-left: 1rem !important;
+}
+
+div#mapid {
+    width: 100%;
+    height: 10rem;
+margin-bottom: 1rem;
+}
+
+
+div.tertiary
+{
+	padding-left: 	1rem;
+}
+
+footer
+{
+	margin-top: 3rem;
+		margin-bottom: 3rem;
+	color: var(--gray-dark);
+}
+
+footer div.legal
+{
+	text-align: center;
+	padding-left: 1rem;
+}
+
+
+footer div.credits
+{
+	text-align: center;
+	font-size: .75rem;
+	text-transform: uppercase;
+	padding-right: 1rem;
+}
+
+
+
+
+/***
+ *      _                                 
+ *     (_)                                
+ *      _ _ __ ___   __ _  __ _  ___  ___ 
+ *     | | '_ ` _ \ / _` |/ _` |/ _ \/ __|
+ *     | | | | | | | (_| | (_| |  __/\__ \
+ *     |_|_| |_| |_|\__,_|\__, |\___||___/
+ *                         __/ |          
+ *                        |___/           
+ */
+
+
+ img.logo-main
+ {
+
+ 	    max-width: 2.75rem;
+ 	    width: 1.5rem;
+    height: inherit;
+    float: left;
+    margin-left: 0rem;
+    margin-right:.25rem;
+ 	margin-top: 	10px;
+    margin-bottom: .5rem;
+ }
+
+
+ img.rotated {
+/* 	transform: rotate(30deg);*/
+ }
+
+
+img.thumbnail
+{
+	max-width: 7rem;
+	height: inherit;
+	float: left;
+	margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/***
+ *      _      _       _        
+ *     | |    (_)     | |       
+ *     | |     _ _ __ | | _____ 
+ *     | |    | | '_ \| |/ / __|
+ *     | |____| | | | |   <\__ \
+ *     |______|_|_| |_|_|\_\___/
+ *                              
+ *                              
+ */
+
+
+a.credit
+{
+	color: var(--color3);
+	font-weight: 700;
+	margin-right: 1rem;
+}
+
+ul.social-buttons li a
+{
+	color: var(--color3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *      _      _     _       
+ *     | |    (_)   | |      
+ *     | |     _ ___| |_ ___ 
+ *     | |    | / __| __/ __|
+ *     | |____| \__ \ |_\__ \
+ *     |______|_|___/\__|___/
+ *                           
+ *                           
+ */
+
+/* ul, li {
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style: none;
+ }
+
+
+ol.reasons
+{
+	list-style: disc;
+}
+*/
+
+ol.reasons li
+{
+margin-bottom: 1rem;
+}
+
+ul.reasons li
+{
+margin-bottom: 1rem;
+}
+
+
+ul.reasons
+{
+	margin-top: 	1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *      _______       ____  _      ______ 
+ *     |__   __|/\   |  _ \| |    |  ____|
+ *        | |  /  \  | |_) | |    | |__   
+ *        | | / /\ \ |  _ <| |    |  __|  
+ *        | |/ ____ \| |_) | |____| |____ 
+ *        |_/_/    \_\____/|______|______|
+ *                                        
+ *                                        
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *       ____                          _              
+ *      / __ \                        (_)             
+ *     | |  | |  _   _    ___   _ __   _    ___   ___ 
+ *     | |  | | | | | |  / _ \ | '__| | |  / _ \ / __|
+ *     | |__| | | |_| | |  __/ | |    | | |  __/ \__ \
+ *      \___\_\  \__,_|  \___| |_|    |_|  \___| |___/
+ *                                                    
+ *                                                    
+ */
+
+
+
+/***
+ *      ____    ______   _____ 
+ *     |___ \  |____  | | ____|
+ *       __) |     / /  | |__  
+ *      |__ <     / /   |___ \ 
+ *      ___) |   / /     ___) |
+ *     |____/   /_/     |____/ 
+ *                             
+ *                             
+ */
+
+ @media (min-width: 375px)
+ {
+
+/* h1#logo
+ {
+ 	font-size: 26px !important;
+ 	line-height: 27px !important;
+ }*/
+
+
+/* img.logo-main
+ {
+ 	max-width: 2.5rem;
+ 	height: inherit;
+ 	float: left;
+ 	margin-right: .25rem;
+ 	margin-top: .5rem;
+ }*/
+
+ }
+
+
+
+
+
+
+
+
+
+/***
+ *      _  _     ___    _____ 
+ *     | || |   |__ \  | ____|
+ *     | || |_     ) | | |__  
+ *     |__   _|   / /  |___ \ 
+ *        | |    / /_   ___) |
+ *        |_|   |____| |____/ 
+ *                            
+ *                            
+ */
+  @media (max-width: 425px)
+ {
+
+ 	div.gwic-donate-holder, div.gwic-tour-holder, div.gwic-fb-holder, div.gwic-contact-holder
+ 	{
+ 		margin-top:  1rem !important;
+ 	}
+ }
+
+
+ @media (min-width: 425px)
+ {
+/* h1#logo
+ {
+ 	font-size: 30px !important;
+ 	line-height: 28px !important;
+ }
+*/
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *        __    _  _      ___  
+ *       / /   | || |    / _ \ 
+ *      / /_   | || |_  | | | |
+ *     | '_ \  |__   _| | | | |
+ *     | (_) |    | |   | |_| |
+ *      \___/     |_|    \___/ 
+ *                             
+ *                             
+ */
+
+ @media (min-width: 640px)
+ {
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *      ______     __     ___  
+ *     |____  |   / /    / _ \ 
+ *         / /   / /_   | (_) |
+ *        / /   | '_ \   > _ < 
+ *       / /    | (_) | | (_) |
+ *      /_/      \___/   \___/ 
+ *                             
+ *                             
+ */
+
+ @media (min-width: 768px)
+ {
+ h1#logo
+ {
+ 	font-size: 64px !important;
+ 	line-height: 66px !important;
+ 	padding:  1rem 1rem 1rem 0rem;
+ }
+
+ div.mission-statement h1
+{
+ 	font-size: 34px !important;
+ 	line-height: 35px !important;
+ 	margin-bottom: 0rem;
+ 	margin-top: 2rem;
+}
+
+div.mission-statement h1:first-child
+{
+ 	margin-top: 1rem !important	;
+}
+
+
+
+
+ div.mission-statement , div.video123, div.credits
+{
+padding-left: 1rem;
+}
+
+
+div.gwic-tour-holder 
+{
+	min-height: 8rem;
+}
+
+div.jumbotron
+{
+	margin-bottom: 	2rem;
+}
+
+div#mapid
+{
+	padding-right: 	1rem;
+}
+
+footer div.legal
+{
+	text-align: left;
+}
+
+footer div.credits
+{
+	text-align: right;
+}
+
+footer .col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+img.thumbnail
+{
+	max-width: 9rem;
+	margin-bottom: 2rem;
+}
+
+img.logo-main {
+    margin-right: .5rem;
+    margin-top: 	1.24rem;
+    width: 1.75rem;
+    height: 	inherit;	
+}
+
+
+
+
+ }
+
+
+
+
+
+@media (min-width: 992px){
+
+.container {
+    max-width: 1024px;
+}
+}
+
+
+
+
+
+
+ /***
+ *      __    ___    ___    _  _   
+ *     /_ |  / _ \  |__ \  | || |  
+ *      | | | | | |    ) | | || |_ 
+ *      | | | | | |   / /  |__   _|
+ *      | | | |_| |  / /_     | |  
+ *      |_|  \___/  |____|    |_|  
+ *                                 
+ *                                 
+ */
+ @media (min-width: 1024px)
+ {
+
+ h1#logo
+ {
+ 	font-size: 4rem !important;
+ 	line-height: 4rem !important;
+ }
+
+ div.gwic-contact-holder h1.cta
+ {
+ 	margin-top: .5rem!important;
+ }
+
+
+div#mapid {
+    height: 13rem;
+    margin-top: 2rem;
+}
+
+
+
+img.logo-main {
+max-width: 	3rem;
+width: 2.5rem;
+padding-left: 	.5rem;
+}
+
+
+ img.thumbnail {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *      __   ___     ___     ___  
+ *     /_ | |__ \   / _ \   / _ \ 
+ *      | |    ) | | | | | | | | |
+ *      | |   / /  | | | | | | | |
+ *      | |  / /_  | |_| | | |_| |
+ *      |_| |____|  \___/   \___/ 
+ *                                
+ *                                
+ */
+
+ @media (min-width: 1200px)
+ {
+
+div.gwic-contact-holder h1.cta {
+    margin-top: .5rem!important;
+}
+
+
+.container {
+    max-width: 1140px;
+}
+
+
+
+div#mapid {
+    height: 14rem;
+
+}
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***
+ *      __     __     ___     ___  
+ *     /_ |   / /    / _ \   / _ \ 
+ *      | |  / /_   | | | | | | | |
+ *      | | | '_ \  | | | | | | | |
+ *      | | | (_) | | |_| | | |_| |
+ *      |_|  \___/   \___/   \___/ 
+ *                                 
+ *                                 
+ */
+ @media (min-width: 1600px)
+ {
+
+
+ }
